@@ -146,6 +146,12 @@ describe('Module "car"', () => {
 
 			expect(car.speed).toEqual(0);
 		});
+		it('doesn\'t drive without a driver and with to high speed set', () => {
+			const speed = 185;
+			car.drive(speed);
+
+			expect(car.speed).toEqual(0);
+		});
 		it('doesn\'t change speed if additional passenger is put', () => {
 			const speed = 85;
 			car.put();
