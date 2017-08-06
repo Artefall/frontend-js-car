@@ -3,7 +3,7 @@
 	"private": true,
 	"description": "Create a car object",
 	"author": "Constantine Genchevsky <const.gen@gmail.com>",
-	"version": "2.1.0",
+	"version": "2.2.0",
 	"main": "src/index.js",
 	"scripts": {
 		"start": "neutrino start",
