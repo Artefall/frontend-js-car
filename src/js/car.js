@@ -1,4 +1,4 @@
-function Car() {
+var Car = function () {
 	this.color = color
 	this.doors = doors
 	this.speed = speed
@@ -41,3 +41,5 @@ function Car() {
 
 	}
 }
+
+module.exports = Car;
