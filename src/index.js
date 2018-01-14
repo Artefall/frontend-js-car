@@ -1,7 +1,7 @@
-import Car from './src/js/car.js';
+import car from './src/js/car.js';
 
-var Car = require('./src/js/car.js')
+var car = require('./src/js/car.js')
 
-var myCar = new Car()
+var myCar = new car.Car()
 
 console.log(myCar)
