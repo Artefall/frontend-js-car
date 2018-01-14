@@ -1,3 +1,5 @@
-import car from './js/car';
+import Car from './src/js/car.js';
 
-console.log(car);
+var Car = require('./src/js/car.js')
+
+console.log(Car);
